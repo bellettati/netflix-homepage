@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  background: linear-gradient(to bottom, #111 -30%, transparent 100%);
+  transition: all ease 1.2s;
+}
+
+header.black {
+  background-color: #141414;
+}
+
+.header--logo{
+  height: 25px;
+}
+
+.header--logo img, .header--user img{
+  height: 100%;
+}
+.header--logo {
+  margin-right: 30px;
+}
+
+.header--navbar, .header--user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.header--user img {
+  height: 35px;
+  border-radius: 3px;
+}
+
+.header--dropdown-arrow {
+  margin-left: -10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+

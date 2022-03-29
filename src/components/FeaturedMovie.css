@@ -1,0 +1,86 @@
+.featured {
+  height: 100vh;
+}
+
+.featured--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 5%, transparent 90%);
+}
+
+.featured--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 5%, transparent 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.featured--name {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.featured--info {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.featured-rating, .featured-year, .featured-seasons {
+  display: inline-block;
+  margin-right: 15px;
+}
+.featured-rating {
+  color: #46d369;
+}
+
+.featured--description {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #999;
+  max-width: 40%;
+}
+
+.featured--buttons{
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.play, .info {
+  border: 0;
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  height: 50px;
+  padding: 0px 25px;
+  border-radius: 3px;
+  transition: all ease 0.2s;
+}
+
+.play {
+  background-color: #FFF;
+  color: #111;
+}
+
+.info {
+  background-color: rgba(128, 128, 128, 0.541);
+  color: #FFF;
+}
+
+.play:hover, 
+.info:hover {
+  opacity: 0.7;
+  cursor: pointer;  
+}
+
+.featured--genres {
+  font-size: 18px;
+  margin-top: 15px;
+  color: grey;
+}
